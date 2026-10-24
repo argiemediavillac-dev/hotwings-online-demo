@@ -1,7 +1,7 @@
 /* HOTWINGS ONLINE Phase B: browser-local simulation; no production orders or payments. */
 const flavors=['Signature Blazing Hot','Spicy Garlic Parmesan','Spicy Honey Glaze','Premium Japanese Teriyaki','Sesame BBQ','Lemon Sesame'];
 const products=[
- {id:'w8',cat:'Wings',name:'8 pcs Chicken Wings + Fries',desc:'Choose 2 of the 6 pictured flavors. French fries included.',price:160,emoji:'🍗',image:'eight-piece.png',prep:20,options:flavors,flavorsCount:2},
+ {id:'w8',cat:'Wings',name:'8 pcs Chicken Wings + Fries',desc:'Choose 2 of the 6 pictured flavors. French fries included.',price:160,emoji:'🍗',image:'wings.png',prep:20,options:flavors,flavorsCount:2},
  {id:'w24',cat:'Wings',name:'Party Package · 24 pcs + Fries',desc:'Choose all 6 pictured flavors. French fries included.',price:450,emoji:'🍗',image:'party.png',prep:30,options:flavors,flavorsCount:6},
  {id:'fillet',cat:'Meals',name:'Savory Chicken Fillet',desc:'Menu screenshot listing; serving details to confirm.',price:59,emoji:'🍗',prep:18,options:[]},
  {id:'bbq',cat:'Meals',name:'Chicken Teriyaki BBQ · 1 stick',desc:'Priced per stick in the supplied menu.',price:15,emoji:'🍢',prep:15,options:[]},
